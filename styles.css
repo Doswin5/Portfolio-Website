@@ -1,0 +1,190 @@
+/* Variables */
+:root {
+    --text-color: rgba(0, 0, 0, 0.7);
+    --primary-color: #FCC028;
+    --hover-color: #f1ad01;
+    --regular-font-size: 18px;
+}
+
+/* Universal Selectors */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+/* The Whole page */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+    padding: 0 100px;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+}
+
+nav span {
+    font-family: 'Imperial Script', cursive;
+    font-size: 40px;
+}
+
+nav ul {
+    display: flex;
+    column-gap: 24px;
+}
+
+nav ul li {
+    padding: 8px;
+}
+
+nav ul li a {
+    font-size: var(--regular-font-size);
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+nav button {
+    padding: 16px 32px;
+    border-radius: 4px;
+    background-color: var(--primary-color);
+    border: 0;
+    color: white;
+    font-size: var(--regular-font-size);
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: var(--hover-color);
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    margin-top: 24px;
+    height: 78vh;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+} 
+
+.header-content h4 {
+    font-size: var(--regular-font-size);
+    font-weight: 400;
+    color: var(--primary-color);
+}
+
+.my-name {
+    font-weight: 700;
+    display: block;
+    font-size: 72px;
+    color: black;
+}
+
+.job-title {
+    color: #207733;
+    font-size: 24px;
+}
+
+.header-content p {
+    color: var(--text-color);
+    width: 70%;
+    font-size: var(--regular-font-size);
+    margin: 8px 0 40px;
+    line-height: 1.6;
+}
+
+header .cta {
+    display: flex;
+    column-gap: 24px;
+    align-items: center;
+}
+
+header .cta button {
+    padding: 16px 64px;
+    border-radius: 8px;
+    background-color: var(--primary-color);
+    border: 0;
+    color: white;
+    font-size: var(--regular-font-size);
+    cursor: pointer;
+}
+
+header .cta button:hover {
+    background-color: var(--hover-color);
+}
+
+header .cta a {
+    display: flex;
+    align-items: center;
+    color: black;
+    column-gap: 8px;
+    font-weight: 600;
+    font-size: var(--regular-font-size);
+}
+
+header .cta a:hover {
+    color: var(--primary-color);
+}
+
+.header-image {
+    object-fit: cover;
+    width: 1000px;
+    height: 1000px;
+}
+
+header .profile-card {
+    width: 500px;
+    padding: 16px;
+    margin-top: 40px;
+    margin-left: -40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+header .profile-card .profile-header {
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+header .profile h6 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+header .profile h6 span {
+    color: #9e9d9d;
+    font-size: 10px;
+    display: block;
+    font-weight: 400;
+}
+
+header .header-content .profile-card p {
+    width: 100%;
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
+
+
