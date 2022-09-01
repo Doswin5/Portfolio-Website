@@ -1,12 +1,13 @@
-/* Variables */
+/* VARIABLES */
 :root {
     --text-color: rgba(0, 0, 0, 0.7);
     --primary-color: #FCC028;
     --hover-color: #f1ad01;
     --regular-font-size: 18px;
+    --hero-section-bg: linear-gradient(rgba(236, 178, 46, 0.29), rgba(255, 255, 255));
 }
 
-/* Universal Selectors */
+/* UNIVERSAL SELECTORS */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -17,22 +18,27 @@
 
 
 
-/* The Whole page */
+/* THE WHOLE PAGE */
 body {
     font-family: 'Poppins', sans-serif;
 }
 
 .container {
     width: 100%;
-    padding: 0 100px;
 }
 
-/* Navbar */
+.hero-section {
+    background: var(--hero-section-bg);
+    width: 100%;
+}
+
+/* NAVBAR */
 nav {
+    padding: 24px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 24px 0;
+    /* padding: 24px 0; */
 }
 
 nav span {
@@ -80,6 +86,7 @@ header {
     column-gap: 40px;
     margin-top: 24px;
     height: 78vh;
+    padding: 0 100px;
 }
 
 .header-content {
@@ -109,7 +116,7 @@ header {
     color: var(--text-color);
     width: 70%;
     font-size: var(--regular-font-size);
-    margin: 8px 0 40px;
+    margin: 8px 0 24px;
     line-height: 1.6;
 }
 
@@ -149,13 +156,13 @@ header .cta a:hover {
 .header-image {
     object-fit: cover;
     width: 1000px;
-    height: 1000px;
+    height: 950px;
 }
 
 header .profile-card {
     width: 500px;
     padding: 16px;
-    margin-top: 40px;
+    margin-top: 80px;
     margin-left: -40px;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
@@ -185,6 +192,8 @@ header .header-content .profile-card p {
     margin-bottom: 0;
     font-size: 12px;
 }
+
+/* MAIN */
 
 
 
