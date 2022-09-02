@@ -244,7 +244,7 @@ main {
     display: block;
     font-size: 32px;
     font-weight: 500;
-    margin: 8px 0;
+    margin: 8px 0 16px;
 }
 
 .about-content p {
@@ -314,16 +314,16 @@ main {
     position: relative;
 }
 
-.services .explore {
+.explore {
     position: absolute;
     right: 20px;
-    top: -30px;
+    top: -36px;
     font-size: 18px;
     cursor: pointer;
     color: var(--primary-color);
 }
 
-.services .explore:hover {
+.explore:hover {
     color: var(--hover-color);
 }
 
@@ -432,6 +432,39 @@ main {
     background-color: var(--hover-color);
 }
 
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.portfolio h3 {
+    color: var(--primary-color);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+
+.portfolio h3 span {
+    color: black;
+    font-size: 32px;
+    display: block;
+}
+
+.portfolio .projects {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, auto);
+    gap: 60px;
+    margin-top: 80px;
+    position: relative;
+}
+
+.projects img {
+    width: 100%;
+}
 
 
 
