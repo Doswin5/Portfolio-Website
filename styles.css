@@ -235,15 +235,15 @@ main {
 
 .about-content h4 {
     color: var(--primary-color);
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
 }
 
 .about-content h4 span {
     color: black;
     display: block;
-    font-size: 40px;
-    font-weight: 400;
+    font-size: 32px;
+    font-weight: 500;
     margin: 8px 0;
 }
 
@@ -286,5 +286,74 @@ main {
 .about-content .cta {
     margin-top: 40px;
 }
+
+.services-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.services-section h3 {
+    color: var(--primary-color);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+
+.services-section h3 span {
+    color: black;
+    font-size: 32px;
+    display: block;
+}
+
+.services {
+    display: flex;
+    column-gap: 60px;
+    position: relative;
+}
+
+.services .explore {
+    position: absolute;
+    right: 20px;
+    top: -30px;
+    font-size: 18px;
+    cursor: pointer;
+    color: var(--primary-color);
+}
+
+.services .explore:hover {
+    color: var(--hover-color);
+}
+
+.service {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.service h4 {
+    color: black;
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 16px;
+}
+
+.service p {
+    width: 70%;
+    text-align: center;
+    align-self: center;
+    color: var(--text-color);
+    line-height: 1.8;
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+
+
+
 
 
