@@ -467,5 +467,116 @@ main {
 }
 
 
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* text-align: center; */
+    padding: 80px 0;
+}
+
+.testimonials h3 {
+    color: var(--primary-color);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.testimonials h3 span {
+    color: black;
+    font-size: 32px;
+    display: block;
+}
+
+.testimonials .block1 {
+    width: 800px;
+    height: 304px;
+    position: relative;
+}
+
+
+.testimonial {
+    background-color: white;
+    border-radius: 24px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
+    position: relative;
+    /* position: absolute; */
+    top: -200px;
+    left: 500px;
+    z-index: 99;
+}
+
+.testimonial .testimonialDp {
+    margin-top: -50px;
+    margin-bottom: 32px;
+} 
+
+.open-quote {
+    position: absolute;
+    left: 40px;
+}
+.close-quote {
+    position: absolute;
+    bottom: 0;
+    right: 40px;
+}
+
+.testimonial p {
+    width: 80%;
+    margin-bottom: 24px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.8;
+    color: var(--text-color);
+}
+
+.testimonial h6 {
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.testimonial h6 span {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--text-color);
+    display: block;
+}
+
+.testimonials .block2 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: -570px;
+    left: 87%;
+    z-index: 1;
+}
+
+.arrow-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 16px;
+    align-items: center;
+    column-gap: 80px;
+    position: absolute;
+    z-index: 100;
+    background-color: var(--primary-color);
+    left: -110px;
+    top: 150px;
+    border-radius: 16px;
+}
+
+.arrow-container img {
+    cursor: pointer;
+}
+
 
 
