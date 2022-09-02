@@ -212,7 +212,7 @@ main {
     padding: 40px 0;
 }
 
-.about .image-wrapper {
+.image-wrapper {
     display: flex;
     justify-content: center;
     flex-grow: 1;
@@ -352,6 +352,85 @@ main {
     margin-top: 8px;
 }
 
+.case-study {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* text-align: center; */
+    padding: 80px 0;
+}
+
+.case-study h3 {
+    color: var(--primary-color);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.case-study h3 span {
+    color: black;
+    font-size: 32px;
+    display: block;
+}
+
+.cases {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    margin-top: 40px;
+}
+
+.case {
+    display: flex;
+    column-gap: 80px;
+    align-items: center; 
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.case img {
+    width: 100%;
+}
+
+.case h4 {
+    color: var(--primary-color);
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.case h5 {
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 12px 0;
+}
+
+.case p {
+    color: var(--text-color);
+    line-height: 1.8;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.secondary-btn {
+    padding: 16px 64px;
+    border: 2px solid var(--primary-color);
+    background-color: transparent;
+    border-radius: 8px;
+    margin-top: 40px;
+    color: var(--primary-color);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.secondary-btn:hover {
+    color: white;
+    background-color: var(--hover-color);
+}
 
 
 
