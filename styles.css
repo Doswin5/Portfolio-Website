@@ -40,7 +40,15 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* background-color: rgba(236, 178, 46, 0.24); */
+    /* position: sticky; */
+    /* top: 0; */
+    /* z-index: 105px; */
     /* padding: 24px 0; */
+}
+
+nav .menu {
+    display: none;
 }
 
 nav span {
@@ -708,7 +716,7 @@ footer {
     font-weight: 500;
 }
 
-button:hover {
+.contact form button:hover {
     background-color: var(--hover-color);
 }
 
@@ -772,3 +780,98 @@ td {
 .copyright span {
     font-size: 18px;
 }
+
+
+/* RESPONSIVENESS */
+@media only screen and (max-width: 600px) {
+    /* body {
+        width: 100%;
+    } */
+
+    .container {
+        width: 100%;
+    }
+
+    .hero-section {
+        width: 100%;
+        padding: 0;
+    }
+
+    nav {
+        background-color: lightblue;
+        width: 100%;
+        padding: 16px;
+    }
+
+    nav span {
+        font-size: 16px;
+    }
+    
+    nav ul {
+        display: none;
+    }
+    
+    nav button {
+        display: none;
+        
+    }
+
+    nav .menu {
+        display: block;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        padding: 24px 16px;
+        /* padding: 0; */
+        width: 100%;
+    }
+
+    .header-content h4 {
+        font-size: 12px;
+    }
+
+    .header-content h4 .my-name {
+        font-size: 32px;
+    }
+
+    .header-content h4 .job-title {
+        font-size: 18px;
+    }
+
+    .header-content p {
+        font-size: 14px;
+        line-height: 1.4;
+        margin-bottom: 0;
+    }
+
+    .cta {
+        margin-top: 16px;
+    }
+
+    .cta button {
+        padding: 8px 16px;
+        font-size: 12px;
+        margin-right: 0;
+    }
+
+    .cta a {
+        font-size: 12px;
+        margin-left: 0;
+    }
+
+    .cta a img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .profile-card {
+        width: 150px;
+        padding: 8px;
+        margin: 0;
+    }
+}
+
+
+
